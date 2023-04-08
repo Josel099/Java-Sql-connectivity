@@ -29,6 +29,9 @@ public class mysqlDMLcommands {
 		
 		String s="INSERT INTO STUDENT VALUES(4,'raghu')";
 		
+		//3. Execute statment/Query
+		
+		stmt.execute(s);
 		
 		
 		
