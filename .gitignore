@@ -4,9 +4,9 @@
 *.jar
 
 # Eclipse
-.settings/
-.classpath
-.project
+/.settings/
+/.classpath/
+/.project/
 
 # macOS
 .DS_Store
