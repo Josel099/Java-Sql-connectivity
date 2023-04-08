@@ -1,17 +1,10 @@
 package mysqldemos;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-//1. Create a connection
-//2. Create statement/Query
-//3. Execute statment/Query
-//4. Store the results in result set
-//5.  close connection
-
-public class mysqlDMLcommands {
+public class DMLupdate {
 
 	public static void main(String[] args) throws SQLException {
 		
@@ -27,7 +20,7 @@ public class mysqlDMLcommands {
 		Statement stmt = con.createStatement();
 
 		
-		String s="INSERT INTO STUDENT VALUES(4,'raghu')";
+		String s="UPDATE STUDENT SET NAME='ravi' WHERE STUDENT_ID=4";
 		
 		//3. Execute statment/Query
 		
@@ -38,7 +31,7 @@ public class mysqlDMLcommands {
 		con.close();
 		
 		
-		
+		System.out.println("Query executed");
 		
 		
 	}  
