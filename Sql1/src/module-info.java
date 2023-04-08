@@ -6,4 +6,5 @@
  *
  */
 module Sql1 {
+	requires java.sql;
 }
