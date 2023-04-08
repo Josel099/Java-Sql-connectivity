@@ -33,7 +33,9 @@ public class mysqlDMLcommands {
 		
 		stmt.execute(s);
 		
+		// 4.close the connection 
 		
+		con.close();
 		
 		
 		
