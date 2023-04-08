@@ -27,7 +27,7 @@ public class DMLinsert {
 		Statement stmt = con.createStatement();
 
 		
-		String s="INSERT INTO STUDENT VALUES(5,'beena')";
+		String s="INSERT INTO STUDENT VALUES(7,'teena')";
 		
 		//3. Execute statment/Query
 		
