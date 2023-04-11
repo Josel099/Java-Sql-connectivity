@@ -1,1 +1,14 @@
 /bin/
+/.metadata/
+# Java
+*.class
+*.jar
+
+# Eclipse
+/.settings/
+/.classpath/
+/.project/
+
+# macOS
+/.DS_Store/
+
