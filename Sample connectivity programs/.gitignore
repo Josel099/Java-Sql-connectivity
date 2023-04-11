@@ -12,3 +12,20 @@
 # macOS
 /.DS_Store/
 
+/.metadata/
+# Java
+*.class
+*.jar
+
+# Eclipse
+/.settings/
+/.classpath/
+/.project/
+/.DS_Store/
+
+
+.classpath
+.project
+.settings/
+.DS_Store
+module-info.java
