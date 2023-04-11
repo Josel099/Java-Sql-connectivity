@@ -11,3 +11,8 @@
 # macOS
 /.DS_Store/
 
+
+.classpath
+.project
+.settings/
+.DS_Store
